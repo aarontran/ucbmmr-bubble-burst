@@ -1,0 +1,22 @@
+Bubble burst code
+
+Completely based on work of
+Erneux and Davis
+Brenner and Gueyffier
+Savva and Bush
+Savva (thesis)
+
+at this time.  Improvements to come incrementally, but for now
+work is for self-education, in
+1. how to formulate numerical models
+2. how to write good code
+3. how to use version control
+
+Ultimate goal
+is to simulate bubble bursting
+(incorporate non-Newtonian rheology, spherical geometry, etc...)
+to account for observations of bubble bursting in mud.
+
+Aaron Tran
+8/22/2013
+(rewrite this later)
