@@ -1,0 +1,23 @@
+Rough log of design, layouts for finite difference code
+-------------------------------------------------------
+8/11/2013 - wrote simple explicit code
+Code is unstable: velocity EXPLODES after 2 iterations
+at curvature derivative discontinuity (going from flat film to hemispherical cap)
+and at tip edge
+
+Things to fix: edge tracking (not hard) [DONE??]
+implement staggered grid
+some kind of versioning (lrn 2 git...)
+IMPLICIT TIMESTEPPING
+DISCONTINUITY ACCOUNTING FOR IN CURVATURE AND STUFF... ?!?!?!
+
+Reformulate following Savva and Bush, I suppose (solve for f=h^2, adaptive meshing)
+
+8/22/2013 - moved change log, notes to new plaintext file
+
+Attempted to implement the initial film profile used in Savva's thesis (Appendix B)
+Appears to work on first test.
+But code blows up nonetheless.
+
+Consider moving this code to Python...
+
